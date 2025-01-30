@@ -17,9 +17,9 @@ get("/rock") do
   @outcome = "We won!"
   elsif @var == "Paper"
   @outcome = "We lost!"
-  erb(:rock)
   end
-  
+  erb(:rock)
+
 end
 
 
@@ -32,9 +32,9 @@ get("/paper") do
   @outcome = "We lost!"
   elsif @var == "Paper"
   @outcome = "We tied!"
-  erb(:paper)
   end
-  
+  erb(:paper)
+
 end
 
 
@@ -47,7 +47,7 @@ get("/scissors") do
   @outcome = "We tied!"
   elsif @var == "Paper"
   @outcome = "We won!"
-  erb(:scissors)
   end
+  erb(:scissors)
 
 end
