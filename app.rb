@@ -5,7 +5,7 @@ require "sinatra/reloader"
 
 
 get("/") do
-erb(:home, :layout => :homepage)
+erb(:home)
 end
 
 get("/rock") do
